@@ -2,8 +2,8 @@ import React from 'react'
 import '../styles/App.css';
 const App = () => {
 const handleSubmit=event => {
-  event.prventDefault();
-  console.log("form submitted");
+  event.preventDefault();
+  console.log('form submitted');
 };
 
   return (
